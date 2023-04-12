@@ -18,6 +18,7 @@ WORKDIR /home/user/stable-diffusion-webui
 COPY . .
 
 VOLUME /home/user/stable-diffusion-webui/models
+VOLUME /home/user/stable-diffusion-webui/embeddings
 VOLUME /home/user/stable-diffusion-webui/extensions
 VOLUME /home/user/stable-diffusion-webui/output
 
